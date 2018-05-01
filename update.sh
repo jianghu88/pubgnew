@@ -1,11 +1,10 @@
 #!/bin/bash
-echo "欢迎使用俊驰一键搭建"
-echo "即将搭建的是5.01版本"
+echo "欢迎使用一键搭建"
 echo "准备开始安装"
 read -p "回车后开始安装"
 echo "请输入你的内网ip" 
 read -p "内网ip： " ip
-cp /root/junchi/restart.sh /root/restart.sh
+cp /root/pubgnew/restart.sh /root/restart.sh
 chmod +x restart.sh
 wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
 chmod +x shadowsocks-all.sh
